@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="FinalYearProject.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Computer Shop - ByteBazaar</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="ASP.NET/CSS/styles.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    <style>
+    body {
+        background: url('ASP.NET/picture/Background.jpg') no-repeat center center fixed;
+    }
+    </style>
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="default" runat="server">
+    <header>
+    <img src="picture/Logo.jpg" alt="ByteBazaar Logo" width="209" height="132" onerror="this.onerror=null; this.src='https://via.placeholder.com/185x180';">
+    <h1>BYTEBAZAAR</h1>
+<nav>
+    <a href="HomePage.aspx">Home</a>
+    <a href="ProductPage.aspx">Product</a>
+    <a href="AboutUs.aspx">About Us</a>
+    <a href="ContactUs.aspx">Contact Us</a>
+    <a href="signup.aspx" target="_blank" rel="noopener noreferrer">Sign Up here!</a>
+    <asp:Label ID="lblMasterWelcome" runat="server" />
+        <asp:LoginStatus ID="LoginStatus1" runat="server" OnLoggingIn="LoginStatus1_LoggingIn" OnLoggingOut="LoginStatus1_LoggingOut"/>
+    <a href="Payment.aspx" style="float: right; position: relative;">
+        <img src="picture/cart.jpg" height="50" width="50" alt="Shopping Cart">
+        <asp:Label ID="lblCartCount" runat="server" CssClass="cart-count" />
+    </a>
+</nav>
+
+    </header>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    <footer>
+    <div class="quick-links">
+        <h3>Quick Links</h3>
+        <nav>
+            <a href="HomePage.aspx">Home</a>
+            <a href="ProductPage.aspx">Product</a>
+            <a href="AboutUs.aspx">About Us</a>
+            <a href="ContactUs.aspx">Contact Us</a>
+            <a href="signup.aspx" target="_blank" rel="noopener noreferrer">Sign Up here!</a>
+            <a href="Login.aspx" target="_blank" rel="noopener noreferrer">Log in here!</a>
+        </nav>
+    </div>
+    <div class="social-media">
+        <nav>
+            <a href="https://www.facebook.com/profile.php?id=61561396232966&is_tour_dismissed" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/byte_bazaar2024?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+        </nav>
+    </div>
+    </footer>
+    </form>
+</body>
+</html>
