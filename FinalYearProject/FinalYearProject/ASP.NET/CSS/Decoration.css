@@ -1,0 +1,132 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header-container {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+    .header-container img {
+        width: 209px;
+        height: 132px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .header-container h1 {
+        margin: 0;
+        font-size: 1.8rem;
+    }
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1rem;
+        margin: 0 10px;
+        transition: color 0.3s;
+    }
+
+        nav a:hover {
+            color: #e74c3c;
+        }
+
+.search-bar {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    .search-bar form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .search-bar input[type="text"] {
+        width: 300px;
+        padding: 10px;
+    }
+
+    .search-bar button {
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .search-bar button:hover {
+            background-color: #e74c3c;
+        }
+
+.footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.quick-links, .social-media {
+    flex: 1;
+    padding: 0 20px;
+}
+
+    .quick-links h1 {
+        margin-bottom: 10px;
+    }
+
+    .quick-links ul, .social-media ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+        .quick-links ul li, .social-media ul li {
+            margin-bottom: 5px;
+        }
+
+            .quick-links ul li a, .social-media ul li a {
+                color: #fff;
+                text-decoration: none;
+                transition: color 0.3s;
+            }
+
+                .quick-links ul li a:hover, .social-media ul li a:hover {
+                    color: #e74c3c;
+                }
+
+    .social-media ul {
+        display: flex;
+        justify-content: center;
+    }
+
+        .social-media ul li {
+            margin: 0 5px;
+        }
+
+            .social-media ul li a {
+                color: #fff;
+                font-size: 1.5rem;
+                transition: color 0.3s;
+            }
+
+                .social-media ul li a:hover {
+                    color: #e74c3c;
+                }

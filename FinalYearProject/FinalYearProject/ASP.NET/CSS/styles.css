@@ -1,0 +1,179 @@
+﻿/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    background-size: cover;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 0;
+    overflow: auto;
+    margin-bottom: 50px;
+}
+
+    header img {
+        float: left;
+        margin-right: 15px;
+    }
+
+    header h1 {
+        margin: 0;
+        padding: 40px 0 0 0;
+        text-align: center;
+    }
+
+/* Navigation Styles */
+nav {
+    text-align: center;
+    margin-top: 15px;
+}
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+    }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+.nav-link {
+    margin-right: 15px;
+    color: white; /* Change color based on your design */
+    text-decoration: none;
+}
+
+/* Custom Text Styles */
+.h3 {
+    color: red;
+    font-size: 60px;
+}
+
+.text {
+    color: gold;
+    font-size: 30px;
+}
+
+/* Greetings Section */
+.greetings {
+    color: aquamarine;
+    position: relative;
+    text-align: center;
+}
+
+.text-overlay {
+    position: relative;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px; /* Adjust this value as needed */
+}
+
+.scroll {
+    width: 100%;
+    height: auto;
+}
+
+/* Search Bar */
+.search-bar {
+    text-align: center;
+    margin: 20px 0;
+}
+
+    .search-bar input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        width: 60%;
+    }
+
+    .search-bar button {
+        padding: 10px;
+        background-color: darkblue;
+        color: white;
+        border: none;
+    }
+
+/* Quick Links */
+.quick-links {
+    text-align: center;
+    margin: 40px 0;
+}
+
+    .quick-links h1 {
+        font-size: 24px;
+        color: #fff;
+    }
+
+/* Footer Styles */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#Paimon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh; /* Use min-height instead of height */
+    padding-top: 100px;
+    padding-bottom: 100px; /* Add padding to avoid overlap with footer */
+}
+
+    #Paimon p {
+        color: white;
+        font-size: large;
+        text-align: center;
+        margin-bottom: 20px; /* Space between text and button */
+    }
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    height: auto; /* Remove fixed height to avoid overflow */
+    width: 200px;
+    margin-bottom: 50px; /* Adds space at the bottom to prevent overlap */
+}
+
+    .button:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+
+.cart-count {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
