@@ -1,0 +1,146 @@
+2024-10-15 20:27:29,517 [6] ERROR FinalYearProject.ASP.NET.ProductPage - Error adding to cart: 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PaymentID', table 'FinalYearProject.dbo.Payment'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at FinalYearProject.ASP.NET.ProductPage.ExecuteNonQuery(String query, String productId, String username, String orderId, Decimal price) in C:\Users\DELL\Desktop\RobotAliceSkull\INTI\FYP\FinalYearProject\FinalYearProject\FinalYearProject\ASP.NET\ProductPage.aspx.cs:line 336
+   at FinalYearProject.ASP.NET.ProductPage.AddToCartProcedure(String productId, String username, String orderId, Decimal price) in C:\Users\DELL\Desktop\RobotAliceSkull\INTI\FYP\FinalYearProject\FinalYearProject\FinalYearProject\ASP.NET\ProductPage.aspx.cs:line 210
+   at FinalYearProject.ASP.NET.ProductPage.AddToCart_Click(Object sender, CommandEventArgs e) in C:\Users\DELL\Desktop\RobotAliceSkull\INTI\FYP\FinalYearProject\FinalYearProject\FinalYearProject\ASP.NET\ProductPage.aspx.cs:line 180
+ClientConnectionId:12de97bd-b7e5-4b5b-8b9c-12ac2fa8adf1
+Error Number:515,State:2,Class:16
+2024-10-15 20:27:42,143 [5] ERROR FinalYearProject.ASP.NET.ProductPage - Error adding to cart: 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PaymentID', table 'FinalYearProject.dbo.Payment'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at FinalYearProject.ASP.NET.ProductPage.ExecuteNonQuery(String query, String productId, String username, String orderId, Decimal price) in C:\Users\DELL\Desktop\RobotAliceSkull\INTI\FYP\FinalYearProject\FinalYearProject\FinalYearProject\ASP.NET\ProductPage.aspx.cs:line 336
+   at FinalYearProject.ASP.NET.ProductPage.AddToCartProcedure(String productId, String username, String orderId, Decimal price) in C:\Users\DELL\Desktop\RobotAliceSkull\INTI\FYP\FinalYearProject\FinalYearProject\FinalYearProject\ASP.NET\ProductPage.aspx.cs:line 210
+   at FinalYearProject.ASP.NET.ProductPage.AddToCart_Click(Object sender, CommandEventArgs e) in C:\Users\DELL\Desktop\RobotAliceSkull\INTI\FYP\FinalYearProject\FinalYearProject\FinalYearProject\ASP.NET\ProductPage.aspx.cs:line 180
+ClientConnectionId:12de97bd-b7e5-4b5b-8b9c-12ac2fa8adf1
+Error Number:515,State:2,Class:16
+2024-10-15 20:28:56,416 [6] ERROR FinalYearProject.ASP.NET.ProductPage - Error adding to cart: 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PaymentID', table 'FinalYearProject.dbo.Payment'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at FinalYearProject.ASP.NET.ProductPage.ExecuteNonQuery(String query, String productId, String username, String orderId, Decimal price) in C:\Users\DELL\Desktop\RobotAliceSkull\INTI\FYP\FinalYearProject\FinalYearProject\FinalYearProject\ASP.NET\ProductPage.aspx.cs:line 336
+   at FinalYearProject.ASP.NET.ProductPage.AddToCartProcedure(String productId, String username, String orderId, Decimal price) in C:\Users\DELL\Desktop\RobotAliceSkull\INTI\FYP\FinalYearProject\FinalYearProject\FinalYearProject\ASP.NET\ProductPage.aspx.cs:line 210
+   at FinalYearProject.ASP.NET.ProductPage.AddToCart_Click(Object sender, CommandEventArgs e) in C:\Users\DELL\Desktop\RobotAliceSkull\INTI\FYP\FinalYearProject\FinalYearProject\FinalYearProject\ASP.NET\ProductPage.aspx.cs:line 180
+ClientConnectionId:12de97bd-b7e5-4b5b-8b9c-12ac2fa8adf1
+Error Number:515,State:2,Class:16
+2024-10-15 20:54:45,008 [5] ERROR FinalYearProject.ASP.NET.ProductPage - Error adding to cart: 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PaymentID', table 'FinalYearProject.dbo.Payment'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at FinalYearProject.ASP.NET.ProductPage.AddToCartProcedure(String productId, String username, String orderId, Decimal price) in C:\Users\DELL\Desktop\RobotAliceSkull\INTI\FYP\FinalYearProject\FinalYearProject\FinalYearProject\ASP.NET\ProductPage.aspx.cs:line 223
+ClientConnectionId:ad7d96db-4f83-4f4d-bb76-5851a543dc11
+Error Number:515,State:2,Class:16
+2024-10-15 20:56:54,680 [6] ERROR FinalYearProject.ASP.NET.ProductPage - Error adding to cart: 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PaymentID', table 'FinalYearProject.dbo.Payment'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at FinalYearProject.ASP.NET.ProductPage.AddToCartProcedure(String productId, String username, String orderId, Decimal price) in C:\Users\DELL\Desktop\RobotAliceSkull\INTI\FYP\FinalYearProject\FinalYearProject\FinalYearProject\ASP.NET\ProductPage.aspx.cs:line 219
+ClientConnectionId:779b80da-807a-4f29-a288-3c1574521afb
+Error Number:515,State:2,Class:16
+2024-10-15 20:57:40,750 [11] ERROR FinalYearProject.ASP.NET.ProductPage - Error adding to cart: 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PaymentID', table 'FinalYearProject.dbo.Payment'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at FinalYearProject.ASP.NET.ProductPage.AddToCartProcedure(String productId, String username, String orderId, Decimal price) in C:\Users\DELL\Desktop\RobotAliceSkull\INTI\FYP\FinalYearProject\FinalYearProject\FinalYearProject\ASP.NET\ProductPage.aspx.cs:line 219
+ClientConnectionId:779b80da-807a-4f29-a288-3c1574521afb
+Error Number:515,State:2,Class:16
+2024-10-15 20:58:06,568 [6] ERROR FinalYearProject.ASP.NET.ProductPage - Error adding to cart: 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PaymentID', table 'FinalYearProject.dbo.Payment'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at FinalYearProject.ASP.NET.ProductPage.AddToCartProcedure(String productId, String username, String orderId, Decimal price) in C:\Users\DELL\Desktop\RobotAliceSkull\INTI\FYP\FinalYearProject\FinalYearProject\FinalYearProject\ASP.NET\ProductPage.aspx.cs:line 219
+ClientConnectionId:779b80da-807a-4f29-a288-3c1574521afb
+Error Number:515,State:2,Class:16
+2024-10-15 21:03:02,633 [5] ERROR FinalYearProject.ASP.NET.ProductPage - Error adding to cart for ProductID=A005, Username=Kuromi: 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PaymentID', table 'FinalYearProject.dbo.Payment'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at FinalYearProject.ASP.NET.ProductPage.AddToCartProcedure(String productId, String username, String orderId, Decimal price) in C:\Users\DELL\Desktop\RobotAliceSkull\INTI\FYP\FinalYearProject\FinalYearProject\FinalYearProject\ASP.NET\ProductPage.aspx.cs:line 221
+ClientConnectionId:84d9ac98-4de9-4dd8-9dbe-6af504f98e91
+Error Number:515,State:2,Class:16
+2024-10-16 10:05:40,000 [8] ERROR FinalYearProject.ASP.NET.ProductPage - Error adding to cart for ProductID=A001, Username=Kuromi: 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PaymentID', table 'FinalYearProject.dbo.Payment'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at FinalYearProject.ASP.NET.ProductPage.AddToCartProcedure(String productId, String username, String orderId, Decimal price) in C:\Users\DELL\Desktop\RobotAliceSkull\INTI\FYP\FinalYearProject\FinalYearProject\FinalYearProject\ASP.NET\ProductPage.aspx.cs:line 221
+ClientConnectionId:935822c3-9786-48f4-96ad-ea006bdc933b
+Error Number:515,State:2,Class:16
+2024-10-16 12:55:59,255 [6] ERROR FinalYearProject.ASP.NET.ProductPage - Error adding to cart for ProductID=A001, Username=Kuromi: 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PaymentID', table 'FinalYearProject.dbo.Payment'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at FinalYearProject.ASP.NET.ProductPage.AddToCartProcedure(String productId, String username, String orderId, Decimal price) in C:\Users\DELL\Desktop\RobotAliceSkull\INTI\FYP\FinalYearProject\FinalYearProject\FinalYearProject\ASP.NET\ProductPage.aspx.cs:line 221
+ClientConnectionId:f2dc54a1-8f26-447b-b23d-e27e5388a515
+Error Number:515,State:2,Class:16
